@@ -1,86 +1,130 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zakaz.ua – Продукти з супермаркету до дверей</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            color: #333;
-            background-color: #f5f5f5;
-        }
-        header {
-            background-color: #ffcc00;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        section {
-            padding: 40px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-        .cta {
-            background-color: #fff;
-            padding: 20px;
-            text-align: center;
-            border-radius: 10px;
-        }
-        .cta a {
-            display: inline-block;
-            background-color: #00a651;
-            color: white;
-            padding: 12px 24px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 8px;
-            margin-top: 10px;
-        }
-        footer {
-            background-color: #eee;
-            text-align: center;
-            padding: 20px;
-            font-size: 0.9em;
-        }
-        img {
-            max-width: 100%;
-            border-radius: 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zakaz.ua – Продукти до дверей</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+    header {
+      background-color: #009f4d;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0 0 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      margin: 0;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .feature {
+      background-color: #f0fdf6;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #bde7cc;
+    }
+    .feature h3 {
+      color: #009f4d;
+    }
+    .cta {
+      background-color: #009f4d;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 10px;
+    }
+    .cta a {
+      background-color: white;
+      color: #009f4d;
+      text-decoration: none;
+      padding: 14px 28px;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 20px;
+      display: inline-block;
+      transition: 0.3s ease;
+    }
+    .cta a:hover {
+      background-color: #e8f9f0;
+    }
+    footer {
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #666;
+    }
+    @media (max-width: 768px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
 
 <header>
-    <h1>Zakaz.ua – Доставка продуктів додому</h1>
-    <p>Швидко, зручно, без черг</p>
+  <h1>Zakaz.ua – Продукти з супермаркету до ваших дверей</h1>
+  <p>Замовляйте онлайн. Економте час. Насолоджуйтесь комфортом.</p>
 </header>
 
 <section>
-    <h2>Чому обирають Zakaz.ua?</h2>
-    <ul>
-        <li>Понад 40 000 товарів з найкращих супермаркетів</li>
-        <li>Доставка від 2 годин</li>
-        <li>Без черг, без витрат часу</li>
-        <li>Оплата онлайн або при отриманні</li>
-    </ul>
+  <h2 style="color: #009f4d;">Чому обирають нас?</h2>
+  <div class="features">
+    <div class="feature">
+      <h3>Швидка доставка</h3>
+      <p>Отримуйте замовлення від 2 годин – просто оберіть зручний час.</p>
+    </div>
+    <div class="feature">
+      <h3>Понад 40 000 товарів</h3>
+      <p>Вибір з найпопулярніших супермаркетів: Сільпо, Metro, Novus та інші.</p>
+    </div>
+    <div class="feature">
+      <h3>Ніяких черг</h3>
+      <p>Весь шопінг онлайн — з дому, офісу або з дороги. Просто і без стресу.</p>
+    </div>
+    <div class="feature">
+      <h3>Безпечна оплата</h3>
+      <p>Обирайте зручний спосіб: онлайн-оплата або при отриманні.</p>
+    </div>
+  </div>
 </section>
 
 <section class="cta">
-    <h2>Спробуйте вже зараз</h2>
-    <p>Оберіть супермаркет, додайте товари в кошик і отримайте замовлення до дверей</p>
-    <a href="https://zakaz.ua/" target="_blank">Перейти на Zakaz.ua</a>
+  <h2>Готові зробити перше замовлення?</h2>
+  <p>Клікніть нижче і почніть купувати продукти, не виходячи з дому.</p>
+  <a href="https://zakaz.ua/" target="_blank">Замовити на Zakaz.ua</a>
 </section>
 
 <section>
-    <img src="1.png" alt="Zakaz.ua доставка">
+  <h2 style="color: #009f4d;">Нам довіряють тисячі</h2>
+  <p style="text-align: center; max-width: 700px; margin: auto;">
+    Zakaz.ua працює у найбільших містах України та має більше 1 000 000 виконаних доставок.
+    Ми забезпечуємо якість, зручність і швидкість. Переконайтеся самі!
+  </p>
 </section>
 
 <footer>
-    &copy; 2025 Zakaz.ua – Надійна доставка продуктів
+  &copy; 2025 Zakaz.ua | Доставка продуктів по всій Україні | Питання? support@zakaz.ua
 </footer>
 
 </body>
