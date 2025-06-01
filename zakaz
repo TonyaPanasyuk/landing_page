@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakaz.ua – Продукти з супермаркету до дверей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .cta {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .cta a {
+            display: inline-block;
+            background-color: #00a651;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #eee;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Zakaz.ua – Доставка продуктів додому</h1>
+    <p>Швидко, зручно, без черг</p>
+</header>
+
+<section>
+    <h2>Чому обирають Zakaz.ua?</h2>
+    <ul>
+        <li>Понад 40 000 товарів з найкращих супермаркетів</li>
+        <li>Доставка від 2 годин</li>
+        <li>Без черг, без витрат часу</li>
+        <li>Оплата онлайн або при отриманні</li>
+    </ul>
+</section>
+
+<section class="cta">
+    <h2>Спробуйте вже зараз</h2>
+    <p>Оберіть супермаркет, додайте товари в кошик і отримайте замовлення до дверей</p>
+    <a href="https://zakaz.ua/" target="_blank">Перейти на Zakaz.ua</a>
+</section>
+
+<section>
+    <img src="https://zakaz.ua/assets/img/homepage/ua/Zakaz%20Delivery.jpg" alt="Zakaz.ua доставка">
+</section>
+
+<footer>
+    &copy; 2025 Zakaz.ua – Надійна доставка продуктів
+</footer>
+
+</body>
+</html>
